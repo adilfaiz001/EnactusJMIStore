@@ -147,6 +147,7 @@ export default class Header extends React.Component {
 								<Logo src={settings.logo} onClick={this.closeAll} alt="logo" />
 							</div>
 							<div className="column is-4 has-text-right header-block-right">
+								{/*
 								<span
 									className="icon icon-search is-hidden-tablet"
 									onClick={this.searchToggle}
@@ -158,6 +159,8 @@ export default class Header extends React.Component {
 										style={{ minWidth: 24 }}
 									/>
 								</span>
+								*/}
+								{/*
 								<SearchBox
 									value={productFilter.search}
 									onSearch={this.handleSearch}
@@ -165,7 +168,7 @@ export default class Header extends React.Component {
 										this.state.mobileSearchIsActive ? 'search-active' : ''
 									}
 								/>
-
+								*/}
 								<CartIndicator
 									cart={cart}
 									onClick={this.cartToggle}
