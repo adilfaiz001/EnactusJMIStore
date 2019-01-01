@@ -160,6 +160,7 @@ export default class Header extends React.Component {
 									/>
 								</span>
 								*/}
+
 								{/*
 								<SearchBox
 									value={productFilter.search}
@@ -169,6 +170,7 @@ export default class Header extends React.Component {
 									}
 								/>
 								*/}
+								
 								<CartIndicator
 									cart={cart}
 									onClick={this.cartToggle}
