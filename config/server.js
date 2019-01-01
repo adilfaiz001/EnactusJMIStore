@@ -30,13 +30,13 @@ module.exports = {
 	mongodbServerUrl: dbUrl,
 
 	smtpServer: {
-		host: 'in-v3.mailjet.com',
+		host: '',
 		port: 587,
 		secure: false,
-		user: 'fcfaed97bb694d6c90f3866463a2e3f6',
-		pass: '068f1c802f09b1afe96f12c0b3fe1b29',
-		fromName: 'enactus-store',
-		fromAddress: 'admin@store.enactusjmi.org'
+		user: '',
+		pass: '',
+		fromName: '',
+		fromAddress: ''
 	},
 
 	// key to sign tokens
