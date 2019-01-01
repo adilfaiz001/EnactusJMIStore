@@ -193,7 +193,7 @@ export default class ProductDetails extends React.Component {
 						/>
 					)}
 
-					{themeSettings.disqus_shortname &&
+					{/*themeSettings.disqus_shortname &&
 						themeSettings.disqus_shortname !== '' && (
 							<section className="section">
 								<div className="container">
@@ -205,7 +205,7 @@ export default class ProductDetails extends React.Component {
 									/>
 								</div>
 							</section>
-						)}
+						)*/}
 				</Fragment>
 			);
 		} else {
